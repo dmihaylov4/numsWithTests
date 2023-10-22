@@ -5,11 +5,6 @@ package org.example;
 public class Main {
 
     /**
-     * Returns the number in the array nums that is closest to 0
-     * If there are multiple numbers with the same distance from 0,
-     * the function returns the largest of those numbers. If the array
-     * is empty or null, the function returns null.
-     *
      * @param nums Array of integers.
      * @return Integer containing the number closest to 0 or null if the array is empty or null.
      */
@@ -29,4 +24,5 @@ public class Main {
 
         return result;
     }
+
 }

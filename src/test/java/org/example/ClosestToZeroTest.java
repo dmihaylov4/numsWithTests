@@ -7,7 +7,7 @@ public class ClosestToZeroTest {
 
     @Test
     public void testPositiveNumbers() {
-        int[] nums = {1, 2, 3};
+        int[] nums = {1, 2, 4};
         assertEquals((Integer) 1, Main.closestToZero(nums));
     }
 
@@ -19,7 +19,7 @@ public class ClosestToZeroTest {
 
     @Test
     public void testMixedNumbers() {
-        int[] nums = {1, -1, 2, -2};
+        int[] nums = {1, -1, 2, -2, 5, -5};
         assertEquals((Integer) 1, Main.closestToZero(nums));
     }
 
@@ -28,4 +28,5 @@ public class ClosestToZeroTest {
         int[] nums = {};
         assertNull(Main.closestToZero(nums));
     }
+
 }
