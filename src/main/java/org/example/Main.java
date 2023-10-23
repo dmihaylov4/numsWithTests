@@ -12,7 +12,6 @@ public class Main {
         if (nums == null || nums.length == 0) {
             return null;
         }
-
         int smallest = Integer.MAX_VALUE;
         int result = 0;
         for (int x : nums) {
